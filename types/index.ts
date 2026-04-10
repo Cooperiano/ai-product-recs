@@ -8,12 +8,15 @@ export interface Product {
   currency: string
   specs: ProductSpecs
   images: string[]
-  affiliateLinks: AffiliateLink[]
-  averageRating: number
-  reviewCount: number
+  affiliate_links: AffiliateLink[]
+  average_rating: number
+  review_count: number
   availability: 'in_stock' | 'out_of_stock' | 'pre_order'
-  createdAt: Date
-  updatedAt: Date
+  use_cases: string[]
+  pros: string[]
+  cons: string[]
+  created_at: Date
+  updated_at: Date
 }
 
 export type ProductCategory = 'laptop' | 'phone' | 'workstation' | 'tablet' | 'monitor'

@@ -1,0 +1,337 @@
+{
+  "products": [
+    {
+      "id": "laptop-macbook-air-13-2024",
+      "name": "MacBook Air 13-inch (M3, 2024)",
+      "brand": "Apple",
+      "category": "laptop",
+      "price": 1099,
+      "currency": "USD",
+      "specs": {
+        "processor": "Apple M3",
+        "ram": 8,
+        "storage": 256,
+        "gpu": "8-core GPU",
+        "display": {
+          "size": 13.6,
+          "resolution": "2560x1664",
+          "panel_type": "Liquid Retina IPS"
+        },
+        "battery": 18,
+        "weight": 2.7,
+        "os": "macOS"
+      },
+      "images": [
+        "https://example.com/images/macbook-air-13.jpg"
+      ],
+      "affiliate_links": [
+        {
+          "platform": "Amazon",
+          "url": "https://amazon.com/dp/B0CXYZ",
+          "commission_rate": 0.025
+        }
+      ],
+      "average_rating": 4.7,
+      "review_count": 12453,
+      "availability": "in_stock",
+      "use_cases": [
+        "general",
+        "students",
+        "office",
+        "light_content_creation"
+      ],
+      "pros": [
+        "Excellent battery life (18+ hours)",
+        "Silent operation (no fan)",
+        "Lightweight and portable",
+        "Great display quality",
+        "Fast M3 performance for everyday tasks"
+      ],
+      "cons": [
+        "Limited to 2 Thunderbolt ports",
+        "8GB RAM is not upgradeable",
+        "Not suitable for heavy video editing or 3D work"
+      ],
+      "created_at": "2026-04-10T13:38:11.464Z",
+      "updated_at": "2026-04-10T13:38:11.464Z"
+    },
+    {
+      "id": "laptop-macbook-pro-14-2024",
+      "name": "MacBook Pro 14-inch (M3 Pro, 2024)",
+      "brand": "Apple",
+      "category": "laptop",
+      "price": 1999,
+      "currency": "USD",
+      "specs": {
+        "processor": "Apple M3 Pro (12-core)",
+        "ram": 18,
+        "storage": 512,
+        "gpu": "18-core GPU",
+        "display": {
+          "size": 14.2,
+          "resolution": "3024x1964",
+          "refresh_rate": 120,
+          "panel_type": "Liquid Retina XDR Mini-LED"
+        },
+        "battery": 17,
+        "weight": 3.5,
+        "os": "macOS"
+      },
+      "images": [
+        "https://example.com/images/macbook-pro-14.jpg"
+      ],
+      "affiliate_links": [
+        {
+          "platform": "Amazon",
+          "url": "https://amazon.com/dp/B0CXYZ2",
+          "commission_rate": 0.025
+        }
+      ],
+      "average_rating": 4.8,
+      "review_count": 8765,
+      "availability": "in_stock",
+      "use_cases": [
+        "content_creation",
+        "video_editing",
+        "software_development",
+        "heavy_workloads"
+      ],
+      "pros": [
+        "Excellent M3 Pro performance",
+        "120Hz ProMotion display",
+        "Good port selection (HDMI, SD card, MagSafe)",
+        "17-hour battery life",
+        "Handles 4K video editing smoothly"
+      ],
+      "cons": [
+        "Expensive",
+        "Heavier than MacBook Air",
+        "Fan can be loud under heavy load"
+      ],
+      "created_at": "2026-04-10T13:38:11.464Z",
+      "updated_at": "2026-04-10T13:38:11.464Z"
+    },
+    {
+      "id": "laptop-dell-xps-15-2024",
+      "name": "Dell XPS 15 (9530, 2024)",
+      "brand": "Dell",
+      "category": "laptop",
+      "price": 1499,
+      "currency": "USD",
+      "specs": {
+        "processor": "Intel Core i7-13700H",
+        "ram": 16,
+        "storage": 512,
+        "gpu": "NVIDIA RTX 4060",
+        "display": {
+          "size": 15.6,
+          "resolution": "3456x2160",
+          "refresh_rate": 60,
+          "panel_type": "OLED"
+        },
+        "battery": 8,
+        "weight": 4.2,
+        "os": "Windows 11"
+      },
+      "images": [
+        "https://example.com/images/dell-xps-15.jpg"
+      ],
+      "affiliate_links": [
+        {
+          "platform": "Amazon",
+          "url": "https://amazon.com/dp/B0CXYZ3",
+          "commission_rate": 0.03
+        }
+      ],
+      "average_rating": 4.5,
+      "review_count": 5432,
+      "availability": "in_stock",
+      "use_cases": [
+        "content_creation",
+        "gaming",
+        "video_editing",
+        "software_development"
+      ],
+      "pros": [
+        "Stunning OLED display",
+        "Powerful RTX 4060 for gaming and creative work",
+        "Good keyboard and trackpad",
+        "Premium build quality"
+      ],
+      "cons": [
+        "Mediocre battery life (8 hours)",
+        "Can get hot under load",
+        "More expensive than some competitors"
+      ],
+      "created_at": "2026-04-10T13:38:11.464Z",
+      "updated_at": "2026-04-10T13:38:11.464Z"
+    },
+    {
+      "id": "laptop-thinkpad-x1-carbon-2024",
+      "name": "ThinkPad X1 Carbon Gen 12 (2024)",
+      "brand": "Lenovo",
+      "category": "laptop",
+      "price": 1649,
+      "currency": "USD",
+      "specs": {
+        "processor": "Intel Core i7-1370U",
+        "ram": 16,
+        "storage": 512,
+        "gpu": "Intel Iris Xe",
+        "display": {
+          "size": 14,
+          "resolution": "2880x1800",
+          "refresh_rate": 60,
+          "panel_type": "IPS LCD"
+        },
+        "battery": 15,
+        "weight": 2.4,
+        "os": "Windows 11"
+      },
+      "images": [
+        "https://example.com/images/thinkpad-x1.jpg"
+      ],
+      "affiliate_links": [
+        {
+          "platform": "Amazon",
+          "url": "https://amazon.com/dp/B0CXYZ4",
+          "commission_rate": 0.03
+        }
+      ],
+      "average_rating": 4.6,
+      "review_count": 3210,
+      "availability": "in_stock",
+      "use_cases": [
+        "business",
+        "office",
+        "students",
+        "frequent_travelers"
+      ],
+      "pros": [
+        "Extremely lightweight (2.4 lbs)",
+        "Excellent keyboard",
+        "15-hour battery life",
+        "Durable military-grade build",
+        "Great for business and travel"
+      ],
+      "cons": [
+        "Integrated graphics (not for gaming)",
+        "Expensive for business users",
+        "Display not as vibrant as OLED options"
+      ],
+      "created_at": "2026-04-10T13:38:11.464Z",
+      "updated_at": "2026-04-10T13:38:11.464Z"
+    },
+    {
+      "id": "laptop-asus-rog-strix-2024",
+      "name": "ASUS ROG Strix G16 (2024)",
+      "brand": "ASUS",
+      "category": "laptop",
+      "price": 1299,
+      "currency": "USD",
+      "specs": {
+        "processor": "Intel Core i7-13650HX",
+        "ram": 16,
+        "storage": 1024,
+        "gpu": "NVIDIA RTX 4060",
+        "display": {
+          "size": 16,
+          "resolution": "1920x1200",
+          "refresh_rate": 165,
+          "panel_type": "IPS"
+        },
+        "battery": 6,
+        "weight": 5.1,
+        "os": "Windows 11"
+      },
+      "images": [
+        "https://example.com/images/asus-rog.jpg"
+      ],
+      "affiliate_links": [
+        {
+          "platform": "Amazon",
+          "url": "https://amazon.com/dp/B0CXYZ5",
+          "commission_rate": 0.03
+        }
+      ],
+      "average_rating": 4.4,
+      "review_count": 7654,
+      "availability": "in_stock",
+      "use_cases": [
+        "gaming",
+        "content_creation",
+        "video_editing"
+      ],
+      "pros": [
+        "Great gaming performance with RTX 4060",
+        "165Hz refresh rate for smooth gaming",
+        "1TB SSD storage",
+        "Good cooling system"
+      ],
+      "cons": [
+        "Poor battery life (6 hours)",
+        "Heavy and bulky (5.1 lbs)",
+        "Not suitable for travel",
+        "Display resolution is only 1080p"
+      ],
+      "created_at": "2026-04-10T13:38:11.464Z",
+      "updated_at": "2026-04-10T13:38:11.464Z"
+    },
+    {
+      "id": "laptop-surface-laptop-5-2024",
+      "name": "Surface Laptop 5 (2024)",
+      "brand": "Microsoft",
+      "category": "laptop",
+      "price": 999,
+      "currency": "USD",
+      "specs": {
+        "processor": "Intel Core i5-1235U",
+        "ram": 8,
+        "storage": 256,
+        "gpu": "Intel Iris Xe",
+        "display": {
+          "size": 13.5,
+          "resolution": "2256x1504",
+          "refresh_rate": 60,
+          "panel_type": "PixelSense IPS"
+        },
+        "battery": 13,
+        "weight": 2.9,
+        "os": "Windows 11"
+      },
+      "images": [
+        "https://example.com/images/surface-laptop.jpg"
+      ],
+      "affiliate_links": [
+        {
+          "platform": "Amazon",
+          "url": "https://amazon.com/dp/B0CXYZ6",
+          "commission_rate": 0.03
+        }
+      ],
+      "average_rating": 4.3,
+      "review_count": 4567,
+      "availability": "in_stock",
+      "use_cases": [
+        "general",
+        "students",
+        "office",
+        "light_content_creation"
+      ],
+      "pros": [
+        "Beautiful 3:2 display",
+        "Great keyboard",
+        "Lightweight and portable",
+        "Good battery life",
+        "Premium build quality"
+      ],
+      "cons": [
+        "Limited ports (USB-C, USB-A)",
+        "8GB RAM is not upgradeable",
+        "Underpowered for heavy workloads"
+      ],
+      "created_at": "2026-04-10T13:38:11.464Z",
+      "updated_at": "2026-04-10T13:38:11.464Z"
+    }
+  ]
+}
