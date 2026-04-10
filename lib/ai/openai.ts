@@ -2,7 +2,8 @@ import OpenAI from 'openai'
 import { ChatCompletionRequest, ChatCompletionResponse } from './types'
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.DEEPSEEK_API_KEY || process.env.OPENAI_API_KEY,
+  baseURL: 'https://api.deepseek.com', // DeepSeek API endpoint
 })
 
 export async function createChatCompletion(
@@ -18,7 +19,7 @@ export async function createChatCompletion(
 
     return response as ChatCompletionResponse
   } catch (error) {
-    console.error('OpenAI API error:', error)
+    console.error('DeepSeek API error:', error)
     throw new Error(`Failed to get AI response: ${error instanceof Error ? error.message : 'Unknown error'}`)
   }
 }
@@ -37,7 +38,7 @@ export async function createStreamingChatCompletion(
 
     return stream as AsyncIterable<ChatCompletionResponse>
   } catch (error) {
-    console.error('OpenAI API streaming error:', error)
+    console.error('DeepSeek API streaming error:', error)
     throw new Error(`Failed to get AI streaming response: ${error instanceof Error ? error.message : 'Unknown error'}`)
   }
 }

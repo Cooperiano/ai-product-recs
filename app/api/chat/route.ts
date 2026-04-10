@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
     // Get AI response
     const response = await createChatCompletion({
       messages,
-      model: 'gpt-4o-mini',
+      model: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
       temperature: 0.7,
       max_tokens: 800,
     })

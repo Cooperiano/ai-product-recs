@@ -7,7 +7,7 @@ export interface OpenAIMessage {
 
 export interface ChatCompletionRequest {
   messages: OpenAIMessage[]
-  model: 'gpt-4o-mini' | 'gpt-4o'
+  model: 'deepseek-chat' | 'deepseek-coder' | string // Support DeepSeek models
   temperature?: number
   max_tokens?: number
   functions?: FunctionCall[]

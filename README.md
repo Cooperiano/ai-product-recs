@@ -4,7 +4,7 @@ A modern AI-powered product recommendation system built with Next.js, featuring 
 
 ## 🚀 Features
 
-- **AI-Powered Product Recommendations**: Get intelligent product suggestions using OpenAI's GPT model
+- **AI-Powered Product Recommendations**: Get intelligent product suggestions using DeepSeek AI (OpenAI-compatible API)
 - **Conversational AI Chat**: Natural language interface to ask questions and get product recommendations
 - **Real-time Search**: Instant product search with filtering and sorting capabilities
 - **Modern UI/UX**: Built with Tailwind CSS, Radix UI, and shadcn/ui components
@@ -25,7 +25,7 @@ A modern AI-powered product recommendation system built with Next.js, featuring 
 - **Zustand** - Lightweight state management
 
 ### Backend & AI
-- **OpenAI API** - GPT-4 for AI-powered recommendations
+- **DeepSeek API** - AI-powered recommendations (OpenAI-compatible)
 - **Supabase** - Backend as a Service with PostgreSQL
 - **Next.js API Routes** - Serverless API endpoints
 
@@ -40,7 +40,7 @@ A modern AI-powered product recommendation system built with Next.js, featuring 
 
 - Node.js 18.x or higher
 - npm or yarn package manager
-- OpenAI API key
+- DeepSeek API key (or OpenAI API key)
 - Supabase project
 
 ### Installation
@@ -67,7 +67,8 @@ Create a `.env.local` file in the root directory:
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-OPENAI_API_KEY=your_openai_api_key
+DEEPSEEK_API_KEY=your_deepseek_api_key
+DEEPSEEK_MODEL=deepseek-chat
 ```
 
 ### Supabase Configuration
@@ -129,7 +130,8 @@ npm run dev
 3. Configure environment variables in the Vercel dashboard:
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   - `OPENAI_API_KEY`
+   - `DEEPSEEK_API_KEY`
+   - `DEEPSEEK_MODEL`
 
 4. Deploy automatically on every push
 
@@ -152,7 +154,8 @@ Required environment variables for deployment:
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-OPENAI_API_KEY=your_openai_api_key
+DEEPSEEK_API_KEY=your_deepseek_api_key
+DEEPSEEK_MODEL=deepseek-chat
 ```
 
 ## 📁 Project Structure
