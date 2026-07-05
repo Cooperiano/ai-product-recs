@@ -1,6 +1,20 @@
-# AI Product Recommendation MVP
+<div align="center">
 
-A modern AI-powered product recommendation system built with Next.js, featuring conversational AI assistance and intelligent product suggestions.
+# 🛍️ AI Product Recommendations
+
+**A modern AI-powered product recommendation system with a conversational interface.**<br/>
+<sub>Ask in natural language → get intelligent product suggestions, powered by DeepSeek + Supabase.</sub>
+
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-AI-4D6BFE?style=flat-square)
+
+</div>
+
+---
 
 ## 🚀 Features
 
